@@ -26,7 +26,7 @@ public class VeterinarioController
 			listagem.ID_animal = Console.ReadLine();
 			
 			Console.Write("Nome do Cliente: ");
-			listagem.Nome = Console.ReadLine();
+			listagem.Nome_cliente = Console.ReadLine();
 			
 			Console.Write("Endereço do cliente: ");
 			listagem.Endereco = Console.ReadLine();
