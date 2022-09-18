@@ -51,5 +51,12 @@ public class VeterinarioController
             Console.Write("Especie: ");
 			listagem.Especie = Console.ReadLine();
 
-    }
+
+			}
+
+			//Gravar os arquivos
+            var listagem = new Listagem();
+            Listagem.ExportarJSON(listagem);
+
+            Console.Write("\nARQUIVO JSON GERADO COM SUCESSO.\n");
 }
