@@ -12,7 +12,6 @@ public class VeterinarioController
 
         var veterinario = new Veterinario();
 			
-			veterinario.IdVeterinario = Guid.NewGuid();
 			
 			// Cadastro Veterinario
 			
@@ -20,16 +19,16 @@ public class VeterinarioController
 			veterinario.CRM = Console.ReadLine();
 			
 			Console.Write("Nome do medico: ");
-			veterinario.Nome = Console.ReadLine();
+			veterinario.Nome_Medico = Console.ReadLine();
 			
 			Console.Write("Endereço: ");
 			veterinario.Endereco = Console.ReadLine();
 			
 			Console.Write("Data da consulta: ");
-			veterinario.DateTime = Console.ReadLine();
+			veterinario.DateTime_Consulta = Console.ReadLine();
 
             Console.Write("Data da cirurgia: ");
-			veterinario.DateTime = Console.ReadLine();
+			veterinario.DateTime_Cirurgia = Console.ReadLine();
 
             Console.Write("Raça do animal: ");
 			veterinario.raca = Console.ReadLine();
