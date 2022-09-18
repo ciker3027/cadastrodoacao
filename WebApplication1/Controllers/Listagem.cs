@@ -12,18 +12,17 @@ public class VeterinarioController
 
         var listagem = new Listagem();
 			
-			listagem.IdListagem = Guid.NewGuid();
-			
+						
 			// Cadastro Listagem geral
 			
 			Console.Write("ID Veterinario: ");
 			listagem.ID_veterinario = Console.ReadLine();
 
 			Console.Write("Nome do Veterinario: ");
-			listagem.Nome_veterinario = Console.ReadLine();
+			listagem.Nome_Veterinario = Console.ReadLine();
 
             Console.Write("ID Cliente: ");
-			listagem.ID_cliente = Console.ReadLine();
+			listagem.ID_Cliente = Console.ReadLine();
 
 			Console.Write("Nome do Cliente: ");
 			listagem.Nome_cliente = Console.ReadLine();
@@ -38,7 +37,7 @@ public class VeterinarioController
 			listagem.ID_animal = Console.ReadLine();	
 			
 			Console.Write("Data da adocao: ");
-			listagem.DateTime = Console.ReadLine();
+			listagem.DateTime_adocao = Console.ReadLine();
 
             Console.Write("Nome do animal: ");
 			listagem.Nome_Animal = Console.ReadLine();
