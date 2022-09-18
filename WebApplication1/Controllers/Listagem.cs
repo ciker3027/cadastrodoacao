@@ -19,20 +19,23 @@ public class VeterinarioController
 			Console.Write("ID Veterinario: ");
 			listagem.ID_veterinario = Console.ReadLine();
 
+			Console.Write("Nome do Veterinario: ");
+			listagem.Nome_veterinario = Console.ReadLine();
+
             Console.Write("ID Cliente: ");
 			listagem.ID_cliente = Console.ReadLine();
 
-            Console.Write("ID Animal: ");
-			listagem.ID_animal = Console.ReadLine();
-			
 			Console.Write("Nome do Cliente: ");
 			listagem.Nome_cliente = Console.ReadLine();
-			
+
 			Console.Write("Endereço do cliente: ");
-			listagem.Endereco = Console.ReadLine();
+			listagem.Endereco_Cliente = Console.ReadLine();
 
             Console.Write("Telefone Cliente: ");
-			listagem.Telefone = Console.ReadLine();
+			listagem.Telefone_Cliente = Console.ReadLine();
+
+            Console.Write("ID Animal: ");
+			listagem.ID_animal = Console.ReadLine();	
 			
 			Console.Write("Data da adocao: ");
 			listagem.DateTime = Console.ReadLine();
